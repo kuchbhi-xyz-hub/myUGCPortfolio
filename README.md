@@ -176,7 +176,7 @@
             <h2>Portfolio</h2>
             <div class="media">
                 <h2>Images<h2>
-                <img src="peterj/peterj.jpg"peter j perfumes">
+                <img src="peterj.jpg"peter j perfumes">
                 <img src="rosemary.jpg" alt="brillaire rosemary essential oil ">
                 <img src="plum..jpg" alt="plum renewed clarity night gel">
                 <img src="hilary rodha.jpg" alt="hilary rodha eyeshadow pallete">
@@ -184,8 +184,8 @@
                 <h2>Videos</h2>
                 <video src="peterj.mp4" controls></video>
                 <video src="brillsire.mp4" controls></video>
-                <video src="]plumgel.mp4" controls></video>
-                <video src="aqualogica moisturizer.mp4" controls></video>
+                <video src="]plumgel (10).mp4" controls></video>
+                <video src="aqualogica moisturizer (1).mp4" controls></video>
             </div>
         </section>
 
