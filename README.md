@@ -4,211 +4,185 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>kuchbhi.ugc</title>
+        <title>KuchBhi.UGC</title>
+        
         <style>
-            /* CSS Styles */
             body {
                 font-family: Arial, sans-serif;
                 margin: 0;
                 padding: 0;
-                background-color: #f4f4f9;
-                color: #10375b;
-                line-height: 1.6;
+                background-color: #f4f4f4;
+                color: #333;
             }
 
             header {
-                background-color: #0b2235;
-                color: #a5d4e1;
-                padding: 2rem;
+                background-color: #10375b;
+                color: #fff;
+                padding: 20px;
                 text-align: center;
             }
 
-            header h1 {
-                font-size: 3rem;
-                margin-bottom: 0.5rem;
-            }
-
-            nav ul {
-                list-style: none;
-                padding: 0;
+            nav {
                 display: flex;
                 justify-content: center;
-                gap: 2rem;
+                background-color: #3982a3;
+                padding: 10px;
             }
 
             nav a {
-                color: #a5d4e1;
+                color: #fff;
+                margin: 0 15px;
                 text-decoration: none;
-                font-weight: bold;
-                font-size: 1.2rem;
+                font-size: 16px;
             }
 
             nav a:hover {
-                color: #e1f5f9;
+                text-decoration: underline;
             }
 
-            section {
-                padding: 3rem 2rem;
+            .banner {
+                background-color: #a5d4e1;
+                padding: 40px;
+                text-align: center;
+                color: #0b2235;
+            }
+
+            .section {
+                padding: 40px 20px;
                 text-align: center;
             }
 
-            section h2 {
-                color: #0b2235;
-                font-size: 2.5rem;
-                margin-bottom: 1rem;
+            .portfolio img,
+            .portfolio video {
+                width: 100%;
+                max-width: 300px;
+                margin: 10px;
             }
 
-            .bundle {
-                border: 2px solid #10375b;
-                padding: 1.5rem;
-                margin: 1.5rem auto;
-                max-width: 350px;
+            .contact {
                 background-color: #96bbd2;
-                border-radius: 8px;
-                transition: transform 0.3s;
-            }
-
-            .bundle:hover {
-                transform: scale(1.05);
+                padding: 20px;
+                text-align: center;
+                color: #10375b;
             }
 
             footer {
-                background-color: #0b2235;
-                color: #a5d4e1;
                 text-align: center;
-                padding: 2rem;
-                margin-top: 3rem;
+                padding: 10px;
+                background-color: #10375b;
+                color: #fff;
             }
 
-            footer p a {
-                color: #a5d4e1;
-                text-decoration: none;
-                font-weight: bold;
-            }
-
-            footer p a:hover {
-                color: #e1f5f9;
-            }
-
-            .media {
+            .pricing {
                 display: flex;
                 flex-wrap: wrap;
                 justify-content: center;
-                gap: 2rem;
-                margin-top: 2rem;
+                gap: 20px;
             }
 
-            .media img,
-            .media video {
-                width: 280px;
-                margin: 1rem;
-                border-radius: 8px;
-                border: 3px solid #10375b;
+            .pricing .bundle {
+                background: #fff;
+                border: 2px solid #3982a3;
+                padding: 20px;
+                width: 250px;
+                text-align: center;
             }
 
-            .profile-img {
-                width: 150px;
-                height: 150px;
-                border-radius: 50%;
-                margin-bottom: 2rem;
+            .pricing .bundle h3 {
+                color: #3982a3;
             }
 
-            .about-text {
-                max-width: 800px;
-                margin: 0 auto;
+            .button {
+                padding: 10px 20px;
+                background-color: #3982a3;
+                color: white;
+                border: none;
+                cursor: pointer;
+            }
+
+            .button:hover {
+                background-color: #10375b;
             }
         </style>
+       
     </head>
 
     <body>
+        <i
         <header>
-            <h1>kuchbhi.ugc</h1>
-            <img src="profile pic.jpg" alt="Profile Picture" class="profile-img">
-            <nav>
-                <ul>
-                    <li><a href="#about">About Us</a></li>
-                    <li><a href="#benefits">Benefits</a></li>
-                    <li><a href="#pricing">Pricing</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+            <h1>KuchBhi.UGC</h1>
+            <p>We Create High-Quality UGC Content Tailored to Your Needs</p>
         </header>
-
-        <section id="about">
-            <h2>About Us</h2>
-            <div class="about-text">
-                <p>At kuchbhi.ugc, we specialize in creating personalized, creative content. We believe in delivering
-                    value to our clients with high-quality, engaging, and authentic UGC videos and images.</p>
-                <p>Our mission is to craft content that resonates with your brand’s voice and audience while keeping
-                    things creative and fresh.</p>
-            </div>
+        <nav>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#about">About Us</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#contact">Contact</a>
+            
+        </nav>
+        <div class="banner">
+            <h2>Welcome to KuchBhi.UGC</h2>
+            <p>Quality content that drives results.</p>
+        </div>
+        <section id="portfolio" class="section portfolio">
+            <h2>Portfolio</h2>
+            <p>Here’s some of our recent work:</p>
+            <h2> video </h2>
+            <video controls src="aqualogica moisturizer (1).mp4"></video>
+            <video controls src="brillsire.mp4"></video>
+            <video controls src="peterj.mp4"></video>
+            <video controls src="]plumgel (10).mp4"></video>
+            <h2> Images </h2>
+            <img src="peterj.jpg" alt="Portfolio Image 1">
+            <img src="plum..jpg" alt="Portfolio Image 2">
+            <img src="rosemary.jpg" alt="Portfolio Image 3">
+            <img src="hilary rodha.jpg" alt="Portfolio Image 4">
+            <img src="aualogica.jpg" alt="Portfolio Image 5">
         </section>
-
-        <section id="benefits">
-            <h2>Why Work With Us?</h2>
+        <section id="about" class="section about">
+            <h2>About Us</h2>
+            <p>We are UGC creators dedicated to delivering quality, cost-friendly content. Our goal is to exceed
+                expectations with revisions and high-quality results until clients are fully satisfied.</p>
+            <h3>Why Work With Us?</h3>
             <ul>
-                <li>Affordable and value-driven services</li>
-                <li>Unlimited revisions for satisfaction</li>
-                <li>Tailored content based on your needs</li>
-                <li>Professional, reliable service with quick turnaround</li>
+                <li>Cost-effective solutions</li>
+                <li>Unlimited revisions</li>
+                <li>Tailored, high-quality content</li>
+                <li>Focused on client satisfaction</li>
             </ul>
         </section>
-
-        <section id="pricing">
+        <section id="pricing" class="section pricing">
             <h2>Pricing</h2>
             <div class="bundle">
-                <h3>Basic Bundle</h3>
-                <p>1 video - ₹1000</p>
+                <h3>Bundle 1</h3>
+                <p>1 Video</p>
+                <p>Price: ₹1000</p>
             </div>
             <div class="bundle">
-                <h3>Standard Bundle</h3>
-                <p>3 videos - ₹2500</p>
+                <h3>Bundle 2</h3>
+                <p>3 Videos + 2 Images</p>
+                <p>Price: ₹2500</p>
             </div>
             <div class="bundle">
-                <h3>Premium Bundle</h3>
-                <p>5 videos - ₹4000</p>
+                <h3>Bundle 3</h3>
+                <p>5 Videos + 5 Images</p>
+                <p>Price: ₹4500</p>
             </div>
-            <p>*Prices are negotiable</p>
+            <p>Note: Prices are negotiable!</p>
         </section>
-
-        <section id="portfolio">
-            <h2>Portfolio</h2>
-            <div class="media">
-                <h2>Images<h2>
-                <img src="peterj.jpg"peter j perfumes">
-                <img src="rosemary.jpg" alt="brillaire rosemary essential oil ">
-                <img src="plum..jpg" alt="plum renewed clarity night gel">
-                <img src="hilary rodha.jpg" alt="hilary rodha eyeshadow pallete">
-                <img src="aualogica.jpg" alt="aqualogica illuminate+ gel moisturizer">
-                <h2>Videos</h2>
-                <video src="peterj.mp4" controls></video>
-                <video src="brillsire.mp4" controls></video>
-                <video src="]plumgel (10).mp4" controls></video>
-                <video src="aqualogica moisturizer (1).mp4" controls></video>
-            </div>
-        </section>
-
-        <section id="contact">
+        <section id="contact" class="section contact">
             <h2>Contact Us</h2>
-            <p>Email: kuchbhi.ugc@gmail.com</p>
-            <p>Phone: +91-9778080355</p>
-            <p>WhatsApp: +91-9861228564</p>
+            <p>Email: kuchbhi.ugc@gmail.com </p>
+            <p>Phone: +91 9778080355</p>
+            <p>WhatsApp: +91 9861228564</p>
+            
+            <h3>Find Us Online:</h3>
+            <p>Instagram: <a href="https://www.instagram.com/kuchbhi.ugc/?__pwa=1" style="color: #10375b;">@kuchbhi.ugc</a></p>
+           
         </section>
-
         <footer>
-            <p>Follow us:
-                <a href="https://www.instagram.com/kuchbhi.ugc/?__pwa=1">Instagram</a> |
-                <a href="">YouTube</a>http://www.youtube.com/@kuchbhi._ugc
-            </p>
+            <p>&copy; 2024 KuchBhi.UGC | All Rights Reserved</p>
         </footer>
-
-        <script>
-            // JavaScript
-            document.addEventListener('DOMContentLoaded', () => {
-                console.log("Welcome to kuchbhi.ugc!");
-            });
-        </script>
     </body>
 
 </html>
